@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run lint && mocha",
     "lint": "node node_modules/eslint/bin/eslint.js ./src",
-    "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix"
+    "lint:fix": "node node_modules/eslint/bin/eslint.js ./src --fix",
+    "test-js": "npm run test --test test/core-js-dates-tests.js"
   },
   "repository": {
     "type": "git",
